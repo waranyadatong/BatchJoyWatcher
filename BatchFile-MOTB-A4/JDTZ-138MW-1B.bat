@@ -9,7 +9,7 @@ rem Use %SendKeys% to send keys to the keyboard buffer
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 
 rem Start the putty window with the user name only
-start C:\PuTTY\putty.exe -ssh fujikura@192.168.75.41 -pw 1234
+start C:\PuTTY\putty.exe -ssh fujikura@192.168.75.107 -pw 1234
 
 rem Send the password to putty window
 %SendKeys% "cd /home/fujikura/Desktop/Product{ENTER}"
